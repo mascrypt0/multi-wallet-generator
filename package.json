@@ -1,0 +1,32 @@
+{
+  "name": "multi-wallet-generator",
+  "version": "1.1.1",
+  "description": "Generate and manage multi currency wallet",
+  "main": "dist/index.js",
+  "types": "./dist/index.d.ts",
+  "directories": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mascrypt0/multi-wallet-generator.git"
+  },
+  "keywords": [
+    "wallet",
+    "ethereum",
+    "multiwallet"
+  ],
+  "author": "mascrypt0",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mascrypt0/multi-wallet-generator/issues"
+  },
+  "homepage": "https://github.com/mascrypt0/multi-wallet-generator#readme",
+  "devDependencies": {
+    "check-dependencies": "^2.0.0"
+  },
+  "dependencies": {
+    "bip39": "^3.1.0",
+    "multi-wallet-generator": "^1.1.1"
+  }
+}
